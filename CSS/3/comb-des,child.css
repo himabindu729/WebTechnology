@@ -1,0 +1,140 @@
+#grandfather{
+    background-color: palevioletred;
+    width: 100%;
+    height: 500px;
+}
+
+#father,#babai{
+    background-color: greenyellow;
+    width: 45%;
+    height: 70%;
+    float: left;
+}
+
+#babai{
+    background-color: lightgreen;
+}
+
+#sibling,#you,#cousin1,#cousin2{
+    background-color: darkcyan;
+    width: 40%;
+    height: 50%;
+    float: left;
+}
+ #you{
+    background-color: lightskyblue;
+ }
+
+ #cousin1{
+    background-color: brown;
+ }
+
+#cousin2{
+    background-color: royalblue;
+}
+
+
+/* descendant selectors is represented with space */
+
+/* #grandfather #father{
+    background-color: orange;
+    color: brown;
+}
+
+#grandfather #babai{
+    background-color: orange;
+    color: brown;
+}
+
+#grandfather #sibling{
+    background-color: green;
+}
+
+#grandfather #you{
+    background-color: green;
+}
+
+#grandfather #cousin1{
+    background-color: hotpink;
+}
+
+#grandfather #cousin2{
+    background-color: hotpink;
+}
+
+#father #sibling{
+    background-color:brown ;
+    color: white;
+}
+
+#father #you{
+    background-color: brown ;
+    color: white;
+}
+
+#babai #cousin1{
+    background-color: burlywood;
+}
+
+#babai #cousin2{
+    background-color: burlywood;
+} */
+
+/* the other way i.e., multiple values are seperated by comma */
+/* 
+#grandfather #father,#babai{
+    background-color: skyblue;
+}
+
+#grandfather #sibling,#you,#cousin1,#cousin2{
+    background-color: pink;
+}
+
+#father #sibling,#you{
+    background-color: lightsalmon;
+}
+
+#babai #cousin1,#cousin2{
+    background-color: green;
+} */
+
+/* compare to group selector , id selector has high priority */
+/* Child selector represented with > it takes only one generation */
+
+/* #grandfather>#father{
+    background-color: brown;
+}
+
+#grandfather>#babai{
+    background-color: brown;
+} */
+
+#grandfather>#father,#babai{
+    background-color: blueviolet;
+}
+
+/* #father>#sibling{
+    background-color: blue;
+}
+
+#father>#you{
+    background-color: red;
+} */
+
+#father>#sibling,#you{
+    background-color: lightseagreen;
+}
+
+/* #babai>#cousin1{
+    background-color: lightcoral;
+}
+
+#babai>#cousin2{
+    background-color: lavender;
+} */
+
+
+#babai>#cousin1,#cousin2{
+    background-color: lightblue;
+}
+

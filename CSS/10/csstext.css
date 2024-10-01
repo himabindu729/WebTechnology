@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline 10px wavy rgb(148, 244, 5);
+
+    /* dashed, dotted ,double,wavy can be used but we cannot use ridge, groove as a style for text decoration */
+}
+
+a{
+  font-size: 50px; 
+  text-decoration: none; 
+}
+
+p{
+    font-size: 20px;
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+
+    font-weight: 100;
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    
+    line-height: 40px;
+
+    text-indent: 300px;
+
+}
+
+h2{
+    font-size: 50px;
+    font-family: cursive;
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: fantasy;
+
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#webkitpro{
+    font-size: 100px;
+    background-image: linear-gradient(yellow,red,blue,salmon,green,lavender);
+    background-image: url(../../ASSESTS/IMAGES/stars.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#textshadow{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px red;
+    text-shadow: 5px 5px 5px red,-3px -3px 10px blue;
+    /* text-shadow: horizontal vetical blur color; */
+    
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 100px;
+    width: 60%;
+    border: 5px solid black;
+    /* padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px; */
+
+    /* padding: top right bottem left; */
+    /* padding: 100px;
+    padding: 100px 200px;
+    padding: 100px 200px 300px 400px; */
+
+    float: right;
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+
+    margin: 50px;
+    margin: 100px 100px;
+    margin: 100px 200px 300px 100px;
+} 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./task.js" defer></script>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            transform: all 1s;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        img{
+            width: 450px;
+        }
+        marquee{
+            position: absolute;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body onkeydown="jump()" onkeyup="down()">
+    <marquee id="mar" direction="right" scrollamount="20" >
+        <img src="../../ASSESTS/IMAGES/GIF/doraemongif.gif" alt="">
+    </marquee>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+#sun{
+    width: 300px;
+    height: 300px;
+    background-image: url(../../ASSESTS/IMAGES/sun.png);
+    background-size: 120%;
+    background-position: center;
+    border-radius: 50%;
+    transition: all 5s;
+
+}
+#sun:hover{
+    background-image: url(../../ASSESTS/IMAGES/earth.png);
+}

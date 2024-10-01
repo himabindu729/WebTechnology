@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#indiaflag{
+    width: 100%;
+    height: 300px;
+}
+
+.orange{
+    background-color: orange;
+    height: 100px;
+}
+
+.white{
+    background-color: white;
+    height: 100px;
+}
+
+.green{
+    background-color: green;
+    height: 100px;
+}
+
+.ashokachakram{
+    width: 150px;
+    height: 100px;
+    margin-left: 600px;
+    transition: all 1s;
+}
+
+.ashokachakram:hover{
+    transform: rotateZ(360deg);
+}

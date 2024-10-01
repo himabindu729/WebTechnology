@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    
+<!--  Simple form  -->
+    <form>
+        <label >Username:</label>
+        <input type="text" required placeholder="Enter Username"><br><br>
+        <label >Password:</label>
+        <input type="password " required placeholder="Enter Password"><br><br>
+        <input type="submit">
+    </form>
+
+<!--  Form Atributes :
+      - label :forattribute in lable & id attribute in input tag should have same value to show high light effect on inputbox.
+      - input : attributes :  -->
+
+
+    <form action="">
+        <label for="name">First Name</label> <sup style="color: red;">*</sup>
+        <input type="text" id="name" placeholder="Enter  First Name" required minlength="10" maxlength="35" > <br>
+
+        <label for="name1">Last Name</label> <sup style="color: red;">*</sup>
+        <input type="text" id="name1" placeholder="Enter last Nmae" required minlength="1" maxlength="35"> <br>
+
+        <label for="DOB">DOB</label> <sup style="color: red;">*</sup>
+        <input type="date" id="DOB" required min="2000-01-01" max="2025-12-31"> <br>
+
+        <label for="phonenumber">Phone Number</label> 
+        <input type="tel" id="phonenumber" placeholder="Enter mobile number" pattern="[0-9]{10}"> <br>
+
+        <label for="email">Email Id</label>
+        <input type="email" id="email" placeholder="Enter email"> <br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password"> <br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter age" min="15" max="24" required> <br>
+
+        <!-- when we want to select one option radio type  and "name" attribute is used . -->
+        <label for="">Gender</label> <br>
+        <input type="radio" name="gen">Male <br>
+        <input type="radio" name="gen">Female <br>
+        <input type="radio" name="gen">Others <br>
+
+        <!-- when we want to select more than one option checkbox is used ,"disabled " is used to make any option mandatory -->
+        <label for="">Skills</label> <br>
+        <input type="checkbox" disabled>Web <br>
+        <input type="checkbox">Python <br>
+        <input type="checkbox">Sql <br>
+
+        <!-- to get dropdown ,select option is used-->
+        <label for="">State</label>
+        <select name="" id="">
+        <option value="option">Select</option>
+        <option value="state1">Telangana</option>
+        <option value="state2">Andhra pradesh</option>
+        <option value="state3">Tamilnadu</option>
+        <option value="state4">Karnataka</option>
+        </select> <br>
+
+<!-- opt -->
+        <label for="">City</label>
+        <select name="" id=""> 
+            <option value="">Choose your city</option> 
+
+            <optgroup label="AP">
+                <OPTION value="state1">Guntur</OPTION>
+                <OPTION value="state1">Vizag</OPTION>
+                <OPTION value="state1">Vijawada</OPTION>
+                <OPTION value="state1">Tirupati</OPTION>
+                <OPTION value="state1">Godavari</OPTION>
+            </optgroup>
+            <optgroup label="Telangana">
+                <OPTION value="state1">Hyderabad</OPTION>
+                <OPTION value="state1">Warangal</OPTION>
+                <OPTION value="state1">karimnagar</OPTION>
+                <OPTION value="state1">Nizamabad</OPTION>
+                <OPTION value="state1">Adilabad</OPTION>
+            </optgroup>
+        </select> <br>
+
+        <label for="">Resume</label>
+        <input type="file" name="" id=""><br>
+
+        <label for="">Image</label>
+        <input type="file"><br>
+
+        <label for="">Image</label>
+        <input type="image" src="../../ASSESTS/IMAGES/monkey-7774171_1280.jpg" style="width: 10%;"><br>
+
+        <label for="">Address</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <!-- TYPES OF INPUTS  -->
+
+    <form action="">
+        <input type="week" name="" id="">        <br>
+        <input type="month" name="" id="">       <br>
+        <input type="button" name="" value="submit" id="">    <br>
+        <input type="checkbox" name="" id="">option    <br>
+        <input type="color" name="" id="">       <br>
+        <input type="datetime-local" name="" id="">       <br>
+        <input type="email" name="" id="" placeholder="enter email">       <br>
+        <input type="file" name="" id="">       <br>
+        <input type="hidden" name="" id="">input box is hidden       <br>
+        <input type="image" name="" id="">       <br>
+        <input type="number" name="" id="">       <br>
+        <input type="password" name="" id="">     <br>
+        <input type="range" name="" id="">       <br>
+        <input type="radio" name="" id="">       <br>
+        <input type="reset" name="" id="">       <br>
+
+    </form>
+
+    <!-- border and heading of forms -->
+
+    <form action="">
+        <fieldset style="border: 6px double black;width: 300px;height: 250px;">
+            <legend style="font-size: larger;font-style: oblique;">FORM</legend>
+
+            <label for="">Name</label> <sup style="color: red;">*</sup>
+            <input type="text" required placeholder="Enter Name"> <br><br>
+
+            <label for="">Roll No</label> <sup style="color: red;">*</sup>
+            <input type="text" required placeholder="Enter Roll number"> <br><br>
+
+            <label for="">Address</label>
+            <input type="text" required placeholder="Enter Address" style="width: 300px;height: 70px;"> <br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

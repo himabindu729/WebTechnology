@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 10px;
+    position: absolute;
+}
+
+div{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+#background1{
+    background-image:url(../../ASSESTS/IMAGES/sun.png);
+}  
+#background2{
+    background-image: url(../../ASSESTS/IMAGES/monkey-7774171_1280.jpg);
+}
+#background3{
+    background-image: url(../../ASSESTS/IMAGES/car.png);
+}
+#background3{
+    background-image: url(../../ASSESTS/IMAGES/zoo.jpeg);
+}
+#background4{
+    background-image: url(../../ASSESTS/IMAGES/earth.png);
+}
+#background5{
+    background-image: url(../../ASSESTS/IMAGES/tankbund.jpeg);
+}
+#background6{
+    background-image: url(../../ASSESTS/IMAGES/stars.webp);
+}
+#background7{
+    background-image: url(../../ASSESTS/IMAGES/birlamandir.jpeg);
+}
+#background8{
+    background-image: url(../../ASSESTS/IMAGES/rocket.png);
+}
+
+
+

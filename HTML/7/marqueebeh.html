@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marquee behavior</title>
+</head>
+<body>
+    <!--maequee tag is used to animate the scrolling text from right to left -->
+    <!-- scrollamount is used increase the speed of the video.
+    behavior can be scroll,slide,alternate.
+    scroll is default.
+    slide  is used is to stop at the end of the screen. 
+    alternate is used to for going and comeback. loop is no of iterations by default loop is infinite -->
+    
+<!-- absolute path -->
+    <marquee behavior="scroll" direction="" scrollamount="50" loop="infinite" style="background-color: red;">
+        <img src="C:\WEBA1\ASSESTS\IMAGES\GIF\spiderman.gif" alt="">
+    </marquee>
+
+    <marquee behavior="slide" direction="right" scrollamount="30" style="background-color: yellow;">
+        <img src="C:\WEBA1\ASSESTS\IMAGES\GIF\ironman.png" alt="">
+    </marquee>
+
+    <marquee behavior="alternate" direction="" scrollamount="50" loop="2" style="background-color: lightblue;">
+        <img src="C:\WEBA1\ASSESTS\IMAGES\GIF\shinchan.gif" alt="">
+    </marquee>
+
+<!-- relative path -->
+    <marquee behavior="alternate" direction="" scrollamount="50" loop="2" style="background-color: lightblue;">
+        <img src="../../ASSESTS/IMAGES/GIF/shinchan.gif" alt="">
+    </marquee>
+
+    <marquee behavior="slide" direction="right" scrollamount="30" style="background-color: yellow;">
+        <img src="../../ASSESTS/IMAGES/GIF/ironman.png" alt="">
+    </marquee>
+
+    <marquee behavior="scroll" direction="" scrollamount="50" loop="infinite" style="background-color: red;">
+        <img src="../../ASSESTS/IMAGES/GIF/spiderman.gif" alt="">
+    </marquee>
+
+</body>
+</html>

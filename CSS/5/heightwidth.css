@@ -1,0 +1,125 @@
+/* both height and width in pixels is possible */
+
+/* div{
+    width: 500px;
+    height: 500px;
+    background-color: indianred;
+} */
+
+/* width can be in % and height in px is possible */
+
+/* div{
+    width: 50%;
+    height: 300px;
+    background-color: cornflowerblue;
+} */
+
+/* width and height in % possible only for sub divisions(when body is parent)  */
+
+/* body{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+div{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+
+} */
+
+/* width and height */
+
+/* body{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+#a{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#b{
+    width: 70%;
+    height: 70%;
+    background-color: orange;
+}
+
+#c{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+} */
+
+/* absolute units - height is taken which cannot be changed ,width in % can be changed */
+
+body{
+    background-color: black;
+}
+
+/* #cms{
+    width: 100%;
+    height: 20cms;
+    background-color: lightsalmon;
+}
+
+#mm{
+    width: 100%;
+    height: 15mm;
+    background-color: green;
+}
+
+#in{
+    width: 100%;
+    height: 5in;
+    background-color: orange;
+}
+
+#pt{
+   width: 100%;
+   height: 40pt;
+   background-color: blueviolet; 
+}
+
+#px{
+    width: 100%;
+    height: 100px;
+    background-color:hotpink;
+}
+
+#pc{
+    width: 100%;
+    height: 15pc;
+    background-color: yellow;
+}
+*/
+
+/* relative units  */
+
+
+#a{
+    width: 100%;
+    height: 500px;
+    background-color: chartreuse;
+} 
+
+#b{
+    width: 100vw; 
+    height: 100vh;
+    background-color: orangered;
+}
+
+#c{
+    width: 100vh; 
+    height: 100vh;
+    background-color: crimson;
+}
+
+#d{
+    width: 100vw;
+    height: 100vw;
+    background-color: cyan;
+}

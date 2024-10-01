@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+h1{
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 18vw 0vw 0vw 0vw;
+    text-shadow: 12px 12px 5px black;
+}
+
+h1:first-letter{
+    color: red;
+}
+

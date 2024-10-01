@@ -1,0 +1,10 @@
+@media only print{
+    input{
+        display: none;
+    }
+}
+
+img{
+    width:50vw;
+    height:50vh;
+}

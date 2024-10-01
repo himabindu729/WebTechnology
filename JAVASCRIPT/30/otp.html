@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./otp.css">
+    <script src="./otp.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <input id="userOTP" placeholder="Enter the OTP" reqired>
+        <span id="status"></span>
+        <input id="submit" type="submit" value="Submit OTP" onclick="checkOTP()">
+        <input id="create" type="button" value="Create the OTP" onclick="openOTP()">
+    </div>
+
+    <div id="container2">
+        <span id="close" onclick="closeOTP()">+</span>
+        <h1 id="otp">4567</h1>
+    </div>
+    
+</body>
+</html>

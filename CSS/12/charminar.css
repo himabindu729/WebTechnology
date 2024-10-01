@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+fieldset{
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 30%;
+    background-image: url(../../ASSESTS/IMAGES/charminar1.jpeg),linear-gradient(purple,pink);
+    background-repeat: no-repeat;
+    background-size: 40%, 100% 100%;
+    background-position: center;
+    border: 12px double blueviolet;
+    border-radius: 20px;
+}
+
+legend{
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: rgb(55, 9, 55);
+    text-shadow: 2px 2px 2px black;
+    border: 5px double black;
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+    color: transparent;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 55%;
+    margin-right: 10px;
+    color: yellow;
+    font-weight: bold;
+    color: transparent;
+}
+
+fieldset:hover{
+    background-image: url(../../ASSESTS/IMAGES/charminar1.jpeg),linear-gradient(purple,pink);
+    background-repeat: no-repeat;
+    background-size: 50%, 100% 100%;
+    background-position: 0px 80px,100%;
+}
+
+fieldset:hover legend{
+    text-align: center;
+}
+
+fieldset:hover h3{
+    color: white;
+    margin-top: 5%;
+}
+
+fieldset:hover>p{
+    color: yellow;
+}

@@ -1,0 +1,83 @@
+/* body{
+    background-color: cadetblue;
+} */
+
+input{
+    background-color: transparent;
+    background-color: palevioletred;
+    background-color: rgb(224, 255, 245);
+    background-color: #ff7f50;
+}
+
+body{
+    width: 100%;
+    width: 100vh;
+    /* height: 1000vh;
+    background-color: cadetblue; */
+
+    /* background-image */
+
+    /* external file  */
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_og_01.jpg);
+    /* background-image: url(../../ASSESTS/IMAGES/monkey-7774171_1280.jpg); */
+
+    /* background-repeat */
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+
+    /* background-size */
+
+    /* height: 100vh;
+    background-size: auto;
+    background-size: contain;
+    background-size: cover;
+     */
+    /* background-size: width height; */
+    /* background-size: 1000px;  
+    background-size: 500px 500px;
+    background-size: 100%;
+    background-size: 50% 30%; */
+
+    /* background-position */
+
+    height: 100vh;
+    background-size: 400px;
+    background-position: auto;
+    background-position: center;
+    background-position: center left;
+    background-position: center right;
+    background-position: right;
+    background-position: top;
+    background-position: center top;
+    background-position: bottom;
+    background-position: center bottom;
+    background-position: top left;
+    background-position: top right;
+    background-position: bottom left;
+    background-position: bottom right;
+
+    /* background-position: x y; */
+    background-position-x: 300px;
+    background-position-y: 500px;
+    background-position: 100px 100px;
+    background-position: 300px;
+    background-position: -200px 0px;
+    background-position: -200px -150px;
+
+    /* background-attachment */
+    height: 500vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: local;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 100%;
+    height: 900px;
+    background: url(../../ASSESTS/IMAGES/monkey-7774171_1280.jpg),no-repeat;
+}

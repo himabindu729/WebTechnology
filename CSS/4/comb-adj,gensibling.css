@@ -1,0 +1,96 @@
+#grandfather{
+    width: 100%;
+    height: 600px;
+    background-color: peru;
+}
+
+#father,#babai{
+    width: 45%;
+    height: 70%;
+    background-color: lightsalmon;
+    float: left;
+}
+
+#babai{
+    background-color: green;
+}
+
+#sibling1,#you,#sibling2,#cousin1,#cousin2,#cousin3{
+    width: 30%;
+    height: 70%;
+    background-color: blue;
+    float: left;
+}
+
+#you{
+    background-color:lavenderblush;
+}
+
+#sibling2{
+    background-color: lightpink;
+}
+
+#cousin1{
+    background-color: lightgreen;
+}
+
+#cousin2{
+    background-color: lightseagreen;
+}
+
+#cousin3{
+    background-color: lightblue;
+}
+
+/* Adjacent sibling selector  it takes only one adjacent sibling ,represents with +*/
+
+/* #father+#babai{
+    background-color: white;
+    color: black;
+}
+
+#sibling1+#you{
+    background-color: wheat;
+}
+
+#you+#sibling2{
+    background-color: aqua;
+}
+
+#cousin1+#cousin2{
+    background-color: aquamarine;
+}
+
+#cousin2+#cousin3{
+    background-color: lavender;
+} */
+
+/* General sibling selector It takes from adjacent siblings represents with ~ */
+
+#father~#babai{
+    background-color:blueviolet ;
+}
+
+#sibling1~#you{
+    background-color: orange;
+}
+
+#sibling1~#sibling2{
+    background-color: lightseagreen;
+}
+
+#you~#sibling2{
+    background-color: green;
+}
+
+#cousin1~#cousin2{
+    background-color: lightcoral;
+}
+
+#cousin1~#cousin3{
+    background-color: lightgreen;
+}
+
+#cousin2~#cousin3{
+    background-color: lightblue;
+}

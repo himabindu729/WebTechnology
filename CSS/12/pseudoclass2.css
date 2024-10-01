@@ -1,0 +1,18 @@
+input{
+    background-color: orchid;
+}
+
+input:enabled{
+    background-color: yellow;
+    color: blue;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+}
+
+input:disabled{
+    background-color: aqua;
+}
+

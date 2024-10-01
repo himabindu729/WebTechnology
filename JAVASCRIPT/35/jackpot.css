@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../ASSESTS/IMAGES/GIF/5746e697-efe5-42be-bb9d-96fe8a2c5e51.__CR0\,0\,300\,300_PT0_SX300_V1___.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 70vw;
+    height: 30vw;
+    background-color: rgba(190, 170, 170, 0.408);
+    backdrop-filter: blur(20px);
+    border-radius: 1.5vw;
+    box-shadow: 1vw 1vw 1vw black;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#numbers{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.numInp{
+    width: 15%;
+    height: 40%;
+    border: 15px rgb(225, 77, 24) double;
+    outline: dashed purple 5px;
+    background-color: yellow;
+    font-size: 6vw;
+    text-align: center;
+    text-shadow: 2px 2px 1px purple,-2px -2px 1px red;
+    color: green;
+}
+
+.numInp::selection{
+    display: none;
+}
+
+#start{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Button{
+    width: 60vw;
+    height: 5vw;
+    background-color: red;
+    border-radius: 1vw;
+    border: 5px solid white;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    color: yellow;
+    box-shadow: 5px 5px 0px blue,-5ps -5px 0px lawngreen;
+    cursor: pointer;
+}
+
+#congrats{
+    width: 80vw;
+    height: 80vh;
+    background-image: url(../../ASSESTS/IMAGES/GIF/d4363e05d275ca2ea4a6e11d8347bc61.gif);
+    position: absolute;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    box-shadow: 1vw 1vw 1vw black;
+    display: none;
+}
+
+#close{
+    font-size: 5vw;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    right: 2vw;
+    rotate: 45deg;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#close:hover{
+    rotate: 405deg;
+}

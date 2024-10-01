@@ -1,0 +1,76 @@
+/* universal selector */
+
+/* *{
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+} */
+
+
+/* Tagname selector */
+
+/* h1{
+    background-color: orange;
+    font-size: 50px;
+    width: 50%;
+}
+p{
+    background-color: black;
+    color: beige;
+    font-size: 40px;
+    width: 40%;
+} */
+
+/* Id selector */
+
+/* #h1{
+    background-color: orchid;
+    color: greenyellow;
+    width: 50%;
+    font-size: 50px;
+}
+#h2{
+    background-color: lightcoral;
+    color: aqua;
+    width: 50%;
+    font-size: 50px;
+}
+#h3{
+    background-color: gold;
+    color: hotpink;
+    width: 50%;
+    font-size: 50px;
+}
+#para1{
+    background-color: orchid;
+    color: greenyellow;
+    width: 100%;
+    font-size: 30px;
+}
+#para2{
+    background-color: lightcoral;
+    color: aqua;
+    width: 100%;
+    font-size: 30px;
+}
+#para3{
+    background-color: gold;
+    color: hotpink;
+    width: 100%;
+    font-size: 30px;
+} */
+
+/* Class selector */
+
+/* .head1{
+    background-color: orangered;
+    color: wheat;
+    font-size: 50px;
+} */
+
+/* Group selector */
+
+b,#id,.head1{
+    background-color: brown;
+    color: bisque;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(120, 69, 3);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 23px ;
+}
+
+#container{
+   width: 100%; 
+   height: 100px;
+   background-image: linear-gradient(75deg,rgb(58, 58, 171),rgb(231, 80, 231),rgb(237, 93, 117),rgb(222, 31, 31),burlywood,white,lightgreen,yellow);
+   border-radius: 100px;
+   background-position: 5000px;
+   background-size: 5000px;
+   transition: background-position 2s;
+}
+
+#container:hover{
+    background-position: 0px;
+}

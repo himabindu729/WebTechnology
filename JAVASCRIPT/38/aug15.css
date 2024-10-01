@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.5s;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle at top left,orange 0% 20%,white 30% 45%,darkblue 50% 50%,white 55% 75%,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 30vw;
+    height: 40vw;
+    /* background-color: lawngreen; */
+}
+
+#poleContainer{
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+#pole{
+    width: 1vw;
+    height: 100%;
+    background-color: darkblue;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 1px 1px 2px black,inset -1px -1px 2px rgb(0, 0, 63);
+}
+
+#orange,#white,#green{
+    width: 100%;
+    height: 33.3%;
+    background-color: orange;
+    rotate: 20deg;
+}
+
+#white{
+    background-color: white;
+    background-image: url(../../ASSESTS/IMAGES/ashokachakram.png);
+    background-size: 2.5vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#green{
+    background-color: green;
+}
+
+#flag{
+    width: 5vw;
+    height: 5vw;
+    background-color: olive;
+    border-radius: 62% 38% 96% 4% / 0% 68% 32% 100% ;
+    overflow: hidden;
+    position: absolute;
+    bottom: 20%;
+    filter: blur(1px);
+    /* transform: translate(0px,-160px); */
+}
+
+#white{
+    background-image: none;
+}
+
+#poleBase{
+    width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#firstBase{
+    width: 30%;
+    height: 30%;
+    background-color: rgb(72, 19, 19);
+    border: 0.5px solid white;
+}
+
+#secondBase{
+    width: 60%;
+    height: 30%;
+    background-color: rgb(72, 19, 19);
+    border: 0.5px solid white;
+}
+
+#thirdBase{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(72, 19, 19);
+    border: 0.5px solid white;
+}

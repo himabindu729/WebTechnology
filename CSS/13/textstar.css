@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(212, 46, 46);
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10%;
+    height: 200px;
+    padding-top: 80px;
+    background-image: linear-gradient(75deg,blue,red,yellow,green,violet,orange);
+    background-image: url(../../ASSESTS/IMAGES/stars.webp);
+    background-size: 1000px 1000px;
+    background-position: 5000px;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-position 2s;
+
+}
+
+h2:hover{
+    background-position: 0px;
+    font-size: 200px;
+}

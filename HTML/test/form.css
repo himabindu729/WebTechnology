@@ -1,0 +1,20 @@
+#lingr{
+    background-image: linear-gradient(orange,orangered);
+}
+
+
+#box{
+    float: left;
+}
+
+#ge{
+    float: left;
+
+}
+
+#sub{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+}
+

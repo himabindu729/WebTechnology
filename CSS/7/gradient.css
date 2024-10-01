@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    width: 600px;
+    height: 500px;
+    /* background-color: red; */
+    float: left;
+}
+
+#lin1{
+    background-image: linear-gradient(red,lawngreen,black,blue,orange);
+}
+
+#col1{
+    background-image: linear-gradient(35deg,orangered,white,green);
+}
+
+
+
+#rad1{
+    background-image: radial-gradient(red,blue,black,red,blue,black);
+}
+
+#rad2{
+    background-image: radial-gradient(black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white);
+}
+
+#pic{
+    background-image: radial-gradient(transparent,transparent,black,black),url(../../ASSESTS/IMAGES/monkey-7774171_1280.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#con1{
+    background-image: conic-gradient(red,blue,black,red,blue,black,red,blue,black,red,blue,black,red,blue,black);
+}
+
+#con2{
+    background-image: conic-gradient(transparent,white,skyblue,transparent,skyblue,transparent,skyblue,transparent,skyblue,white,transparent,skyblue,white,transparent,transparent),url() ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}

@@ -1,0 +1,36 @@
+/* link state represents which is not visited by user */
+
+a:link{
+    background-color: hotpink;
+}
+
+/* visited state represents which is visited by the user */
+
+a:visited{
+    background-color: aqua;
+    color: black;
+}
+
+/* hover state represents whenever we place the curser on the html element(zoom in or zoom out) */
+
+a:hover{
+    font-size: 40px;
+    background-color: lawngreen;
+    color: black;
+}
+
+/* active state is the state during the open of link */
+
+a:active{
+    background-color: red;
+    color: white;
+}
+
+/* a:hover{
+    font-size: 40px;
+    background-color: lawngreen;
+    color: black;
+} */
+
+/* we should use hover state before active state only */
+

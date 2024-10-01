@@ -1,0 +1,30 @@
+p:first-child{
+    background-color: aqua;
+    font-size: 60px;
+}
+
+p:last-child{
+    background-color: salmon;
+    font-size: 60px;
+}
+
+p:nth-child(3){
+    background-color: blueviolet;
+    font-size: 60px;
+}
+p:nth-child(2){
+    background-color: olivedrab;
+    font-size: 60px;
+}
+
+input{
+    background-color: bisque;
+}
+
+input:required{
+    background-color: cadetblue;
+}
+
+input:read-only{
+    background-color: seagreen;
+}

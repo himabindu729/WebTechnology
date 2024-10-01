@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: orangered;
+}
+
+div:first-child{
+    background-color: orchid;
+}
+
+div:last-child{
+    background-color: greenyellow;
+}
+
+div:nth-child(3){
+    background-color: navy;
+}
+
+div:nth-child(1){
+    background-color: mediumpurple;
+}
